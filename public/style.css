@@ -1,0 +1,38 @@
+      body {
+        background-color: #DB9A29;
+      }
+      div {
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 15px;
+        width: 500px;
+        text-align: center;
+      }
+
+      button {
+        border-radius: 5px;
+        width: 200px;
+        padding: 10px;
+        margin: 10px;
+        background-color: orange;
+        border-color: yellow;
+        color: white;
+      }
+      input {
+        border-radius: 5px;
+        width: 500px;
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
+        background-color: yellow;
+        border-color: orange;
+      }
+
+      input::-webkit-outer-spin-button,
+      input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+      }
+
+      input[type="number"] {
+        -moz-appearance: textfield;
+      }
